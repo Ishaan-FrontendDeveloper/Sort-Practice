@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Dancing+Script&family=Koulen&family=Oswald&family=Poppins&family=Rajdhani:wght@300&family=Rubik+Dirt&family=Silkscreen&family=Source+Code+Pro:wght@500&display=swap');
+/* Importing the cool fonts id be using from fonts.google */
+*{
+    margin:0;
+    padding:0;
+}
+/*To set the default margin and padding of all elements to Zero*/
+body{
+    min-height:120vh;
+    min-width:100%;
+    font-family:'Arima',sans-serif;
+
+}
+section{
+    display:flex;
+    flex-direction:row;
+    justify-content:stretch;
+    align-items:center;
+}
+header,ul{
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    align-items:center;
+}
+header{
+    padding:1%;
+    font-family:'Silkscreen',Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1em;
+    min-height:10vh;
+}
+.heading{
+    left:0;
+}
+ul{
+    justify-content:space-evenly;
+    flex-wrap:nowrap;
+    margin:0;
+    right:0;
+}
+li{
+    list-style-type:none;
+    padding:0.9em;
+}
+
+nav{
+
+}
+.container{
+    background:grey;
+    min-height:110vh;
+}
